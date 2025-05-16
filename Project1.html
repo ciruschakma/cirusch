@@ -1,0 +1,745 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- --------- Devicon ---------- -->    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- AOS CSS -->
+  <!-- In <head> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+         
+  <title>Project 1</title>
+</head>
+<body>
+  <div class="container">
+    <!-- NAVIGATION BAR -->
+    <nav id="headerMain">
+      <div class="nav-logo">
+        <p class="nav-name">Cirus</p><span>.</span>
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list">
+            <a href="index.html#home" class="nav-link">Home</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#about" class="nav-link">About</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#projects" class="nav-link active-link">Projects</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#contact" class="nav-link">Contact</a>
+            <div class="circle"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <button class="btn">View Resume <i class="uil uil-file-alt"></i></button>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+
+    <!-- PROJECT DETAIL CONTENT -->
+    <main class="wrapper">
+      <section class="project-detail">
+        <div>
+          
+        </div>
+        <div class="project-page-heading">
+          <h1 data-aos="fade-down" data-aos-duration="1000">GearShare – Peer-to-Peer Vehicle Rental Platform</h1>
+          <h2 data-aos="fade" data-aos-duration="2000">HTML, CSS, Java Script, MongoDB | Project Management</h2>
+        </div>
+        <!-- Hero image -->
+        <div class="project-detail-image" data-aos="fade" data-aos-duration="1000">
+          <img
+            src="assets/images/Project/Project1/Car Provider/Project1B6.png"
+            alt="Project 1 image"
+          />
+        </div>
+
+        <!-- Caption -->
+        <div class="project-detail-caption">
+          <p data-aos="fade" data-aos-duration="1000">
+            A Snapshot of the Project Page
+          </p>
+        </div>
+
+        <div class="project-detail-content">
+
+          <!-- Brief Summary with wrapped image -->
+          <div class="clearfix">
+            <!--<img
+              src="assets/images/sql-snip1.png"
+              alt="Data table preview"
+              class="wrap-image-right"
+            />-->
+            <p data-aos="fade-right" data-aos-duration="1000">
+              GearShare is a full-stack web application designed to enable
+               peer-to-peer vehicle rentals. Similar to platforms like Turo,
+                it connects car owners with individuals looking to rent vehicles,
+                 offering a decentralized and user-friendly alternative to
+                  traditional car rental services. Built with MVC architecture,
+                   the platform supports car listings, rental requests, secure user
+                    sessions, and administrative approvals—all within a clean, responsive interface.
+            </p>
+          </div>
+
+          <div class="tool-ss">
+            <div class="tools">
+              <!-- Tools used -->
+              <h2 data-aos="fade-down" data-aos-duration="1000">Tools Used</h2>
+              <div class="skills-section-project">
+              <div class="skills-underline"></div>
+
+              <!---programming skills-->
+
+              <div class="skills-gallery-project" data-aos="fade" data-aos-duration="2000">
+                <h4 class="skills-title" >Web Development & Database</h4>
+                <hr>
+                <div class="skills-underline"></div>
+                <div class="skills-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"  class="skills-image" alt="html"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" class="skills-image" alt="css"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"class="skills-image" alt="javascript"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"  class="skills-image" alt="nodejs"/>
+                    <img src="assets/ejs.png"  class="skills-image" alt="ejs"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" class="skills-image" alt="mongodb"/>
+                </div>
+
+                <p class="skills-text">
+                 HTML | CSS | JavaScript | Node.js | EJS | MongoDB
+                </p>
+              </div>
+
+             </div>
+            </div>
+          </div>
+
+          <div>
+
+          <h2 data-aos="fade-down" data-aos-duration="1000">Car Provider and Seeker</h2>
+          <p data-aos="fade-right" data-aos-duration="1000"> In the GearShare platform, a car provider is an individual who owns a vehicle
+             and lists it on the application for rental. Providers can upload details about their
+              cars—including model, price per day, and availability—and make them visible to 
+              potential renters. They are responsible for approving or declining rental requests
+               submitted by seekers and managing their listings through a dedicated dashboard. 
+               This role is essential to the platform’s peer-to-peer model, allowing everyday
+                vehicle owners to earn passive income by sharing their unused cars.</p>
+
+          <p data-aos="fade-right" data-aos-duration="1000">A seeker, on the other hand, is a user who browses the platform in
+           search of a vehicle to rent. Seekers can filter listings based on location
+           , date, vehicle type, or price, and submit rental requests to specific providers.
+            Once approved, they gain temporary access to the vehicle for the agreed duration.
+             The seeker experience is designed to be simple and flexible, offering an affordable 
+             and convenient alternative to traditional car rental services through direct interaction with car owners.</p>
+
+          <div id="myCarouselA" class="carousel slide" data-ride="carousel" data-interval="7000">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+              </ol>
+
+              <!-- Slides -->
+              <div class="carousel-inner" role="listbox" data-aos="fade" data-aos-duration="2000">
+                <div class="item active">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project1/Log-sign/Project1A1.png" alt="Top-down-view">
+                     <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                     </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Login-Signup page</h3>
+                      <p>Allows Users to Sign-up and Log-in as either Providers or Seekers.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project1/Log-sign/Project1A2.png" alt="IR-Sensor">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Sign-up Page: Car Provider</h3>
+                      <p>Car Provider users can sign up here</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project1/Log-sign/Project1A3.png" alt="Touch-Sensor">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Log-up Page: Car Provider</h3>
+                      <p>Car Provider users can log into their accounts</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project1/Log-sign/Project1A4.png" alt="Source Codes">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Sign-up Page: Car Seeker</h3>
+                      <p>Users seeking to rent cars can sign up their accounts</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project1/Log-sign/Project1A5.png" alt="Source Codes">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Log-up Page: Car Seeker</h3>
+                      <p>Car Seeker users can log in here</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#myCarouselA" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarouselA" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+
+            <!-- 2nd carousel-->
+            <h2 data-aos="fade-down" data-aos-duration="1000">GearShare for Providers: From Listing to Booking</h2>
+            <p data-aos="fade-right" data-aos-duration="1000">A car provider on GearShare can manage their listings
+              and rental activity through a clean, role-specific dashboard. They begin by creating vehicle listings
+                using a structured form where they input the car title, daily price, type, description, and an image URL.
+                Once submitted, the listings are displayed in a personalized “My Car Listings” section, showcasing 
+                all registered vehicles with detailed metadata including rental rate, vehicle type, and description.
+                  Providers can view incoming booking requests submitted by seekers, each with a specified time frame,
+                  location, and message. From their requests page, they have full control over approving or rejecting 
+                  each request, with booking status updates reflected immediately. The provider profile centralizes all
+                    this functionality, showing contact information, active listings, and request management tools, making
+                    it easy for users to track rental activity and maintain their offerings in the GearShare ecosystem.</p>
+
+            <div id="myCarouselB" class="carousel slide" data-ride="carousel" data-interval="7000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                  <li data-target="#myCarousel" data-slide-to="5"></li>
+                  <li data-target="#myCarousel" data-slide-to="6"></li>
+                  <li data-target="#myCarousel" data-slide-to="7"></li>
+                  <li data-target="#myCarousel" data-slide-to="8"></li>
+                </ol>
+
+                <!-- Slides -->
+                <div class="carousel-inner" role="listbox" data-aos="fade" data-aos-duration="2000">
+                  <div class="item active">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car Provider/Project1B1.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Home page</h3>
+                        <p>This is the home page for both users, where all the cars listed from </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car Provider/Project1B2.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Profile Page: Car Provider</h3>
+                        <p>Car Provider users can see own profile details here</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car Provider/Project1B3.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Adding a Car to Listing</h3>
+                        <p>Allows Users to add owned cars for renting to the list.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car Provider/Project1B4.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Listing Page: Car Provider</h3>
+                        <p>Displayed all the listend cars for that car provider</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car Provider/Project1B5.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Home Page With New Car Added</h3>
+                        <p>New updated car showcase</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car Provider/Project1B6.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Multiple Vehicles Can Be Added</h3>
+                        <p>Car providers can add multiple vehicles for renting.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car Provider/Project1B7.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Detail Page</h3>
+                        <p>Car Provider users can see the details of the individual vehicle here</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car Provider/Project1B8.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Request Page</h3>
+                        <p>Here the car owners can approve or reject a pending request for
+                          renting, which is sent by car seekers
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car Provider/Project1B9.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Request Page</h3>
+                        <p>It will update the status based on the approval or rejection</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarouselB" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarouselB" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+
+
+
+            <!-- 3rd carousel-->
+            <h2 data-aos="fade-down" data-aos-duration="1000">Browse. Select. Go: The Car Seeker Experience</h2>
+            <p data-aos="fade-right" data-aos-duration="1000">A car seeker on GearShare starts by exploring a curated gallery of
+               available vehicles, where each listing displays key details—model name, daily rate, and a brief description—alongside
+                a high-quality image. With intuitive search and filter controls (by name, type, or price), seekers can quickly narrow
+                 down options that match their needs. Clicking “View Details” brings up a dedicated car page featuring full specifications,
+                  rental ID, and a prominent “Request to Rent” button.</p>
+            <p data-aos="fade-right" data-aos-duration="1000">When ready to book, seekers fill out a simple request form overlay—selecting start/end dates,
+               pickup location, and an optional message—and submit their reservation in one click. All active and past requests live in the “My Requests” 
+               dashboard, where seekers can monitor status updates (Pending, Approved, or Rejected) and view booking details at a glance. This streamlined
+                workflow ensures a seamless, self-service rental journey from discovery through confirmation.</p>
+
+            <div id="myCarouselC" class="carousel slide" data-ride="carousel" data-interval="7000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                  <li data-target="#myCarousel" data-slide-to="5"></li>
+                </ol>
+
+                <!-- Slides -->
+                <div class="carousel-inner" role="listbox" data-aos="fade" data-aos-duration="2000">
+                  <div class="item active">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car seeker/Project1C1.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Home page</h3>
+                        <p>It displays all the listed cars from all car owners or providers similarly</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car seeker/Project1C2.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Profile Page: Car Seeker</h3>
+                        <p>Car Seeker users can see own profile details here</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car seeker/Project1C3.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Requesting to rent</h3>
+                        <p>Car seekers can click on a vehicle of their choice and start the request process</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car seeker/Project1C4.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Fill Out Details For Renting</h3>
+                        <p>Prompts users to enter details into the form so the owner knows where, when and who will pick up the car in that request</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car seeker/Project1C5.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Request Page/h3>
+                        <p>Displays the details of the request made and its status</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/Car seeker/Project1C6.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Request Page</h3>
+                        <p>After Car providers approve the request, the status gets updated into approved</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarouselC" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarouselC" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- 4th carousel-->
+            <h2 data-aos="fade-down" data-aos-duration="1000">Database & Design Model</h2>
+            <p data-aos="fade-right" data-aos-duration="1000">GearShare uses a MongoDB database—accessed via Mongoose—to persist its core entities (Users, Cars, Requests, and Bookings)
+               in separate collections linked by ObjectId references. Providers and seekers are distinguished by a role field in the Users collection, with Cars pointing back to their
+                owner via providerId and Requests tying together seekerId, providerId, and carId. Approved requests spawn immutable Booking records, and each document carries timestamps
+                 (createdAt, updatedAt) for auditing and sorting. On top of this data layer sits an Express-based MVC architecture: Models enforce schema validation and helper methods;
+                  Controllers implement business logic (e.g., availability checks, request approval) and coordinate model updates; and Views, built with EJS templates and Bootstrap,
+                   render dynamic HTML pages for listing cars, submitting requests, and managing profiles. This combination of a document-oriented database with a clear MVC separation
+                    ensures both data consistency and maintainable, scalable code.</p>
+
+            <div id="myCarouselD" class="carousel slide" data-ride="carousel" data-interval="7000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Slides -->
+                <div class="carousel-inner" role="listbox" data-aos="fade" data-aos-duration="2000">
+                  <div class="item active">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/database/Project1D1.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Database</h3>
+                        <p>The section of user data storage</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/database/Project1D2.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Database</h3>
+                        <p>The section of listed car data storage</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/database/Project1D3.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Database</h3>
+                        <p>The section of request data storage</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project1/database/Project1D4.png" alt="Top-down-view">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Source Code</h3>
+                        <p>The GearShare backend follows a Node.js + Express MVC pattern: Mongoose models in models/ define schemas for users, cars, requests
+                          , and bookings; controllers in controllers/ implement all business logic (availability checks, approvals, CRUD) and are wired up via
+                           Express routers in routes/. EJS views in views/ (organized by feature) render dynamic pages with Bootstrap styling, while static assets
+                            and uploads reside in public/. Development is done in VS Code, with MongoDB Compass used for inspecting collections and indexes. 
+                            This streamlined structure cleanly separates data, logic, and presentation, making GearShare both maintainable and scalable.</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarouselD" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarouselD" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+
+          <!--project coding -->
+          <div class="project-detail-writing">
+            <div class="questions">
+              <h2 data-aos="fade-down" data-aos-duration="1000">Coding & Architecture</h2>
+              <ol data-aos="fade-right" data-aos-duration="1000">
+                <li>Node.js/Express MVC with Mongoose models, EJS templates, and Bootstrap UI</li>
+                <li>MongoDB schemas use ObjectId links and timestamps; role-based auth and input validation ensure security</li>
+                <li>bcrypt-hashed passwords, Express-session authentication, role-based middleware, plus both client- and server-side input checks to prevent invalid bookings.</li>
+                <li>Clear folder separation (models/, controllers/, routes/, views/, public/), and development tools like VS Code and MongoDB Compass for rapid iteration.</li>
+              </ol>
+            </div>
+        
+      
+          <!-- project management -->        
+            <div class="steps">
+              <h2 data-aos="fade-down" data-aos-duration="1000">Scrum-Driven Project Management</h2>
+              <ol data-aos="fade-left" data-aos-duration="1000">
+                <li>Two-week sprints moving from Business Case → Prototyping → Final Implementation.</li>
+                <li> Sprint planning, daily stand-ups, and sprint reviews enabled quick feedback and iterative refinements.</li>
+                <li> Eight formal meetings with stakeholder using detailed minutes, governed by a shared Project Charter to keep scope, tasks, and responsibilities aligned.</li>
+                <li>Backlog tracked through prototype wireframes and milestone schedule; future features (payments, ratings, live-location) maintained for ongoing development.</li>
+              </ol>
+            </div>
+          </div>
+      
+
+        <!-- Screenshot gallery 
+        <div class="project-detail-screenshots">
+          <img src="assets/images/sql-snip2.png" alt="Variance card visuals">
+          <img src="assets/images/sql-snip3.png" alt="Monthly trend chart">
+          <img src="assets/images/sql-snip4.png" alt="Service breakdown">
+          Add more as needed
+        </div>-->
+        
+        <div> 
+          <!-- GitHub link -->
+          <div class="project-detail-github">
+            <a
+              href="https://github.com/Lintondsouza/ENSE-374-Project.git"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+            >
+              View Source on GitHub <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+        </div> 
+          <!-- Back link -->
+          <div class="project-detail-back">
+            <a href="index.html#projects" class="btn">
+              ← Back to Projects
+            </a>
+          </div>
+
+        <!-- Thank you note -->
+        <div class="project-detail-thanks">
+          <h2>Thank you for taking the time to view my project!</h2>
+        </div>
+
+       
+        
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+      <div class="top-footer">
+          <p>Cirus Chakma .</p>
+      </div>
+      <div class="middle-footer">
+          <ul class="footer-menu">
+              <li class="footer_menu_list">
+                  <a href="#home">Home</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#about">About</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#projects">Projects</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+      <div class="footer-social-icons">
+          <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+          <div class="icon"><a
+              href="https://github.com/ciruschakma/Design-Project-Gesture-Based-Device-Controller.git"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+            ><i class="uil uil-github-alt"></i></a></div>
+      </div>
+      <div class="bottom-footer">
+          <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Cirus Chakma</a> - All rights reserved</p>
+      </div>
+  </footer>
+  </div>
+
+
+    
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+
+   <script>
+  function toggleCaption(btn) {
+    const caption = btn.parentElement.querySelector('.carousel-caption-custom');
+    caption.classList.toggle('show');
+    btn.textContent = caption.classList.contains('show') ? 'Hide Info' : 'Show Info';
+  }
+</script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+
+</body>
+</html>

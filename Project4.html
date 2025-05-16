@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- --------- Devicon ---------- -->    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- AOS CSS -->
+  <!-- In <head> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+         
+  <title>Project 4</title>
+</head>
+<body>
+  <div class="container">
+    <!-- NAVIGATION BAR -->
+    <nav id="headerMain">
+      <div class="nav-logo">
+        <p class="nav-name">Cirus</p><span>.</span>
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list">
+            <a href="index.html#home" class="nav-link">Home</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#about" class="nav-link">About</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#projects" class="nav-link active-link">Projects</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#contact" class="nav-link">Contact</a>
+            <div class="circle"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <button class="btn">Download Resume <i class="uil uil-file-alt"></i></button>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+
+    <!-- PROJECT DETAIL CONTENT -->
+    <main class="wrapper">
+      <section class="project-detail">
+        <div>
+          
+        </div>
+        <div class="project-page-heading">
+          <h1 data-aos="fade-down" data-aos-duration="1000">RegIndicator – SDG Progress Tracker for Regina</h1>
+          <h2 data-aos="fade" data-aos-duration="2000">Web Development In Wordpress | Client Interaction | UI/UX Prototyping through Figma</h2>
+        </div>
+        <!-- Hero image -->
+        <div class="project-detail-image" data-aos="fade" data-aos-duration="1000">
+          <img
+            src="assets/images/Project/Project4/Page/Project4a.png"
+            alt="Project 4 image"
+          />
+        </div>
+
+        <!-- Caption -->
+        <div class="project-detail-caption">
+          <p data-aos="fade" data-aos-duration="1000">
+            RegIndicator Home Page
+          </p>
+        </div>
+
+        <div class="project-detail-content">
+
+          <!-- Brief Summary with wrapped image -->
+          <div class="clearfix">
+            <!--<img
+              src="assets/images/sql-snip1.png"
+              alt="Data table preview"
+              class="wrap-image-right"
+            />-->
+            <p data-aos="fade-right" data-aos-duration="1000">
+              Regindicator is a WordPress-based dashboard that
+               visualizes Regina’s progress on United Nations 
+               Sustainable Development Goals. Built in collaboration
+                with a local nonprofit, it ingests data from 
+                Google Sheets and CSVs, then renders interactive,
+                 mobile-friendly charts so stakeholders can explore 
+                 year-over-year trends and filter by goal or metric.
+            </p>
+          </div>
+
+          <div class="tool-ss">
+            <div class="tools">
+              <!-- Tools used -->
+              <h2 data-aos="fade-down" data-aos-duration="1000">Tools Used</h2>
+              <div class="skills-section-project">
+              <div class="skills-underline"></div>
+
+              <!---programming skills-->
+
+              <div class="skills-gallery-project" data-aos="fade" data-aos-duration="2000">
+                <h4 class="skills-title" >Prototyping & Web Design</h4>
+                <hr>
+                <div class="skills-underline"></div>
+                <div class="skills-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" class="skills-image" alt="css"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg" class="skills-image" alt="css" />
+                </div>
+
+                <p class="skills-text">
+                 Figma | Wordpress
+                </p>
+              </div>
+
+             </div>
+            </div>
+          </div>
+
+          <div>
+
+          <h2 data-aos="fade-down" data-aos-duration="1000">Figma Prototyping</h2>
+          <p data-aos="fade-right" data-aos-duration="1000"> A high-fidelity homepage prototype was crafted in Figma to translate initial wireframes 
+            into a fully interactive design that guided the WordPress build. Color-coded SDG indicators and a WCAG-compliant palette were applied consistently
+             across charts, buttons, and navigation elements, while Gestalt principles ensured related data panels were grouped for intuitive scanning. 
+             Constraints on layout and typography maintained visual clarity, and interactive hotspots simulated filter dropdowns, “Learn More” calls-to-action,
+              and icon-based metaphors (e.g., a house icon for infrastructure metrics). Feedback was gathered directly in Figma via comments from both the client 
+              and peer reviewers; this drove iterative refinements to chart prominence, menu structure, and affordance signifiers, resulting in a prototype that
+               served as the definitive blueprint for development .</p>
+
+          <div id="myCarouselA" class="carousel slide" data-ride="carousel" data-interval="7000">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Slides -->
+              <div class="carousel-inner" role="listbox" data-aos="fade" data-aos-duration="2000">
+                <div class="item active">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project4/Figma/project4figa.jpg" alt="Homepage-Prototype">
+                     <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                     </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Home Page Design</h3>
+                      <p>Design of the homepage focused on being concise and engaging without being too text heavy.
+                        The idea was to introduce interactive webpage logo to maintain the attraction of the viewer
+                         and emphasize on page's main goal- to showcase Regina's SDG progress.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project4/Figma/project4figb.jpg" alt="SDGpage-Prototype">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>SDG Page Design</h3>
+                      <p>Showcases all the Sustainable Development Goal (SDG) relevant under the contexts of Regina during
+                         recent times.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project4/Figma/project4figc.jpg" alt="Datapage-Prototype">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Data Page Design</h3>
+                      <p>Inital date page for visualizing numeric details received from Data-for-Good</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#myCarouselA" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarouselA" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+
+            <!-- 2nd carousel-->
+            <h2 data-aos="fade-down" data-aos-duration="1000">WordPress Implementation</h2>
+            <p data-aos="fade-right" data-aos-duration="1000">The final site was built on a custom WordPress framework without relying
+               on Bootstrap, employing the Astra theme as a lightweight starting point and extending its capabilities via key plugins:
+                Elementor (for drag-and-drop page building and ready-made design blocks), ElementsKit (header/footer builders and mega-
+                menu support), Graphina (for embedding interactive charts), Sticky Header Effects for Elementor, and a bespoke Contact 
+                Form plugin that captures submissions directly in the admin panel . All high-fidelity prototype layouts from Figma—including
+                 the SDG‐colored hero charts, “Learn More” calls-to-action, and icon-metaphor navigation—were reproduced using Elementor
+                  templates and custom PHP snippets, with adjustments made to accommodate WordPress’s rendering model and plugin constraints</p>
+
+
+            <div id="myCarouselB" class="carousel slide" data-ride="carousel" data-interval="7000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Slides -->
+                <div class="carousel-inner" role="listbox" data-aos="fade" data-aos-duration="2000">
+                  <div class="item active">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project4/Page/Project4b.png" alt="home page">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Home page</h3>
+                        <p>This is the home page displaying background image of Regina. The logo is interactive
+                          allowing seamless user experience from home to data page </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project4/Page/Project4c.png" alt="home page">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Home Page</h3>
+                        <p>Another logo part being interacted as a link to a data page</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project4/Page/Project4d.png" alt="intro">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Intro to the Page</h3>
+                        <p>Describes what the page is about and its purpose in brief and concise way.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project4/Page/Project4e.png" alt="Categories">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Categories of the SDGs</h3>
+                        <p>Displays all the sustainable development goals.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project4/Page/Project4h.png" alt="SDG">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Sustainable Development Goals</h3>
+                        <p>A page dedicated to explain the relavant SDGs in Regina and their purpose.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarouselB" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarouselB" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+
+
+
+            <!-- 3rd carousel-->
+            <h2 data-aos="fade-down" data-aos-duration="1000">Data Visualization</h2>
+            <p data-aos="fade-right" data-aos-duration="1000">The site’s interactive charts and graphs are powered by the Graphina – Elementor Charts and Graphs plugin, 
+              which reads the JSON endpoints generated nightly by the data-ingestion pipeline. Graphina dynamically renders line, bar, pie, and radial gauges that update
+               automatically as new SDG figures arrive, ensuring the dashboard always reflects the latest community metrics. Each chart is fully interactive—hovering over
+                data points reveals tooltips with exact values, and built-in controls allow users to toggle series on and off for customized comparisons. Because Graphina
+                 is tightly integrated into Elementor, the visualizations inherit the site’s color-coded SDG palette and responsive layout, preserving design consistency from
+                  Figma through to the live WordPress pages</p>
+
+            <div id="myCarouselC" class="carousel slide" data-ride="carousel" data-interval="7000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Slides -->
+                <div class="carousel-inner" role="listbox" data-aos="fade" data-aos-duration="2000">
+                  <div class="item active">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project4/Page/Project4j.png" alt="Data Page">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Data page</h3>
+                        <p>Each visual data is tailored to suit best for that specific type of data. It paves
+                          a way for easier acknowledgement of the context for better user experience.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project4/Page/Project4k.png" alt="Data type 1">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Data Variation</h3>
+                        <p>User can select different types of visual data for better clarity, all project-detail-thanks
+                          to the Graphina plugin
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project4/Page/Project4l.png" alt="Data type 2">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Data Variation</h3>
+                        <p>User can select different types of visual data for better clarity, all project-detail-thanks
+                          to the Graphina plugin
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="carousel-slide-wrapper">
+                      <img src="assets/images/Project/Project4/Page/Project4m.png" alt="Data type 3">
+                      <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                            Show Info
+                      </button>
+                      <div class="carousel-caption-custom">
+                        <h3>Data Variation</h3>
+                        <p>User can select different types of visual data for better clarity, all project-detail-thanks
+                          to the Graphina plugin
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#myCarouselC" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarouselC" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+
+  
+
+          <!--project coding -->
+          <div class="project-detail-writing">
+        
+      
+          <!-- project management -->        
+            <div class="steps">
+              <h2 data-aos="fade-down" data-aos-duration="1000">Key Takeaways</h2>
+              <ol data-aos="fade-left" data-aos-duration="1000">
+                <li>Figma Prototypes allowed to understand concept better with the real life stakeholders and gain their feedback on the products </li>
+                <li>In the Wordpress environment, built on a lightweight starter (Astra) then extended via PHP templates, hook-based functions, and Elementor template overrides.</li>
+                <li> Graphina plugin configured to consume the JSON endpoints using data excel files and render interactive line, bar, and pie charts.</li>
+                <li> Chart settings (colors, labels, tooltips) driven by PHP-generated shortcode attributes, ensuring consistency with the SDG color palette defined in Figma.</li>
+              </ol>
+            </div>
+          </div>
+      
+
+        <!-- Screenshot gallery 
+        <div class="project-detail-screenshots">
+          <img src="assets/images/sql-snip2.png" alt="Variance card visuals">
+          <img src="assets/images/sql-snip3.png" alt="Monthly trend chart">
+          <img src="assets/images/sql-snip4.png" alt="Service breakdown">
+          Add more as needed
+        </div>-->
+        
+        <div> 
+          <!-- GitHub link -->
+          <div class="project-detail-github">
+            <a
+              href="https://github.com/CharlesSamonte/Team_D.git"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+            >
+              View Source on GitHub <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+        </div> 
+          <!-- Back link -->
+          <div class="project-detail-back">
+            <a href="index.html#projects" class="btn">
+              ← Back to Projects
+            </a>
+          </div>
+
+        <!-- Thank you note -->
+        <div class="project-detail-thanks">
+          <h2>Thank you for taking the time to view my project!</h2>
+        </div>
+
+       
+        
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+      <div class="top-footer">
+          <p>Cirus Chakma .</p>
+      </div>
+      <div class="middle-footer">
+          <ul class="footer-menu">
+              <li class="footer_menu_list">
+                  <a href="#home">Home</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#about">About</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#projects">Projects</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+      <div class="footer-social-icons">
+          <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+          <div class="icon"><a
+              href="https://github.com/ciruschakma/Design-Project-Gesture-Based-Device-Controller.git"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+            ><i class="uil uil-github-alt"></i></a></div>
+      </div>
+      <div class="bottom-footer">
+          <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Cirus Chakma</a> - All rights reserved</p>
+      </div>
+  </footer>
+  </div>
+
+
+    
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+
+   <script>
+  function toggleCaption(btn) {
+    const caption = btn.parentElement.querySelector('.carousel-caption-custom');
+    caption.classList.toggle('show');
+    btn.textContent = caption.classList.contains('show') ? 'Hide Info' : 'Show Info';
+  }
+</script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+
+</body>
+</html>

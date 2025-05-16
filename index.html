@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    
+
+    <!-- --------- Devicon ---------- -->    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- AOS CSS -->
+    <!-- In <head> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+          
+
+    <title>Portfolio | Cirus</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- headerMain --------------- -->
+      <nav id="headerMain" >
+        <div class="nav-logo">
+            <p class="nav-name">Cirus</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn">View Resume <i class="uil uil-file-alt"></i></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/avatar.jpg" alt="avatar">
+            </div>
+          </div>
+
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Cirus Chakma</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm a <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>With a passion for 
+                    developing intelligent, efficient, and user-centered systems—
+                    ranging from embedded hardware projects to interactive web applications.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Hire Me</button>
+                <button class="btn">View Resume <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+          
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-headerMain">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I'm currently studying at the University of Regina with a strong interest in
+                         embedded systems, automation, and full-stack development. I enjoy combining
+                          hardware and software to create practical, innovative solutions. Through 
+                          academic projects and self-driven work, I've gained experience in microcontroller
+                           programming (STM32), Java, Python, modern web technologies, software system design,
+                            and project management. I'm passionate about learning, problem-solving, and building
+                             tools that make a difference—particularly by developing interactive hardware
+                              solutions that seamlessly integrate various sensors and interfaces.
+                               <!--I'm currently studying at the University of Regina with
+                       a strong interest in embedded systems, automation, and full-stack development.
+                        I enjoy combining hardware and software to create practical, innovative solutions.
+                      Through academic projects and self-driven work, I've gained experience in microcontroller
+                       programming, web technologies, software system design and project management. I'm passionate
+                        about learning, problem-solving, and building tools that make a difference.-->
+                    </p>
+                    <div class="about-btn">
+                        <button class="btn">View Resume <i class="uil uil-import"></i></button>
+                    </div>
+                </div>
+            </div>
+              <!-- NEW Skills column -->
+          <div class="col">
+            <div class="skills-section">
+              <h3 class="skills-title" data-aos="fade-down" data-aos-duration="1000">Skills</h3>
+              <div class="skills-underline"></div>
+
+              <!---programming skills-->
+
+              <div class="skills-gallery" data-aos="fade-left" data-aos-duration="1000">
+                <h4 class="skills-title">Programming</h4>
+                <hr>
+                <div class="skills-underline"></div>
+                <div class="skills-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"  class="skills-image" alt="c++"/>
+                    <img src="assets/assembly2.png" class="skills-image" alt="asm">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" class="skills-image" alt="java"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"class="skills-image" alt="javascript"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" class="skills-image" alt="python"/>
+                    <img src="assets/vhdl.png" class="skills-image" alt="vhdl"/>
+                </div>
+
+                <p class="skills-text">
+                 C++ | Assembly | Java | JavaScript | Python | VHDL
+                </p>
+              </div>
+
+              <!---webdev skills-->
+
+              <div class="skills-gallery" data-aos="fade-left" data-aos-duration="1000">
+                <h4 class="skills-title">Web Development</h4>
+                <hr>
+                <div class="skills-underline"></div>
+                <div class="skills-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"  class="skills-image" alt="html"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" class="skills-image" alt="css"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" class="skills-image" alt="php"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"  class="skills-image" alt="nodejs"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"  class="skills-image" alt="express"/>
+                    <img src="assets/ejs.png"  class="skills-image" alt="ejs"/>
+                </div>
+
+                <p class="skills-text">
+                 HTML | CSS | Php | Node.js | Express.js | EJS
+                </p>
+              </div>
+
+              <!---db skills-->
+
+              <div class="skills-gallery" data-aos="fade-left" data-aos-duration="1000">
+                <h4 class="skills-title">Database Management</h4>
+                <hr>
+                <div class="skills-underline"></div>
+                <div class="skills-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"  class="skills-image" alt="mysql"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" class="skills-image" alt="mongodb"/>
+                </div>
+
+                <p class="skills-text">
+                 MySQL | MongoDB 
+                </p>
+              </div>
+
+              <!---CAD skills-->
+
+              <div class="skills-gallery" data-aos="fade-left" data-aos-duration="1000">
+                <h4 class="skills-title">CAD & Simulation Tools</h4>
+                <hr>
+                <div class="skills-underline"></div>
+                <div class="skills-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" class="skills-image" alt="VsCode" />
+                    <img src="assets/keil.png" class="skills-image" alt="keil uVision5"/>
+                    <img src="assets/solidedge.png" class="skills-image" alt="solidedge"/>
+                    <img src="assets/pspice.png" class="skills-image" alt="pspice"/>
+                    <img src="assets/vivado.png" class="skills-image" alt="vivado"/>
+                </div>
+
+                <p class="skills-text">
+                 VS Code | Keil uVision5 | SolidEdge | PSpice | Vivado
+                </p>
+              </div>
+
+           <!----   <div class="skills-list-two-col">
+                <div class="skill-col">
+                  <ul>
+                    <li><i class="uil uil-star"></i> Data Visualization – 3+ years</li>
+                    <li><i class="uil uil-star"></i> Business Analytics – 5+ years</li>
+                  </ul>
+                </div>
+                <div class="skill-col">
+                  <ul>
+                    <li><i class="uil uil-star"></i> Team Management – 3+ years</li>
+                    <li><i class="uil uil-star"></i> Report Development – 5+ years</li>
+                  </ul>
+                </div>
+              </div> ---> 
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+        <div class="top-headerMain">
+          <h1>Projects</h1>
+        </div>
+      
+        <!-- Project Entry #1 -->
+        <div class="project-entry">
+          <div class="project-text" data-aos="fade-right" data-aos-duration="1000" class="aos-init aos-animate">
+            <h3>HTML, CSS, Java Script, MongoDB | Project Management</h3>
+            <h4>GearShare – Peer-to-Peer Vehicle Rental Platform</h4>
+            <h3>Team Project</h3>
+            <p>
+              Developed a full-stack web application based on stakeholder demands, which 
+              enables peer-to-peer car rentals, allowing users to list, browse, request, and manage
+                vehicles through a secure, scalable platform built with MVC 
+                architecture.
+            </p>
+            <a href="Project1.html" class="btn">More</a>
+          </div>
+          <div class="project-image" data-aos="fade-left" data-aos-duration="1000" class="aos-init aos-animate">
+            <img src="assets/images/Project/Project1/Car Provider/Project1B1.png" alt="Revenue Analysis Dashboard">
+          </div>
+        </div>
+      
+        <hr>
+
+
+        
+        <!-- Project Entry #2(reverse) -->
+        <div class="project-entry reverse">
+          <div class="project-image" data-aos="fade-right" data-aos-duration="1000" class="aos-init aos-animate">
+            <img src="assets/images/Project/project2.jpg" alt="Revenue Analysis Dashboard">
+          </div>
+          <div class="project-text" data-aos="fade-left" data-aos-duration="1000" class="aos-init aos-animate">
+            <h3>C++, Assembly | Microprocessor System Design & Digital Logic</h3>
+            <h4>Design Project:Gesture-Based Device Controller</h4>
+            <h3>Individual Project</h3>
+            <p>
+                A device controller using the STM32F103RB microcontroller enables users to control appliances 
+                using hand gestures, capacitive touch input, and manual override buttons for reliable, real-world automation.
+            </p>
+            <a href="Project2.html" class="btn">More</a>
+          </div>
+          
+        </div>
+      
+        <hr>
+      
+        <!-- Project Entry #3 -->
+        <div class="project-entry">
+          <div class="project-text" data-aos="fade-right" data-aos-duration="1000" class="aos-init aos-animate">
+            <h3>Assembly, C++ | Embedded Systems </h3>
+            <h4>Simon's Game Using Microcontroller</h4>
+            <h3>Individual Project</h3>
+            <p>
+                Created a Simon Says-style memory game on the STM32 Nucleo board using 
+                buttons and LEDs, featuring a Knight Rider-style intro, timed input matching, binary score display, and custom win/fail sequences.
+            </p>
+            <a href="Project3.html" class="btn">More</a>
+          </div>
+          <div class="project-image" data-aos="fade-left" data-aos-duration="1000" class="aos-init aos-animate">
+            <img src="assets/images/Project/Project3.jpg" alt="Revenue Analysis Dashboard">
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Project Entry #4 (reversed order) -->
+        <div class="project-entry reverse">
+          <div class="project-image" data-aos="fade-right" data-aos-duration="1000" class="aos-init aos-animate"> 
+            <img src="assets/images/Project/Project4/Page/Project4a.png" alt="Revenue Analysis Dashboard">
+          </div>
+          <div class="project-text" data-aos="fade-left" data-aos-duration="1000" class="aos-init aos-animate">
+            <h3>Web Development In Wordpress | Client Interaction | UI/UX Prototyping through Figma</h3>
+            <h4>Regindicator – SDG Progress Tracker for Regina</h4>
+            <h3>Team Project</h3>
+            <p>
+              Collaboratively designed and developed for real-life clients using a WordPress-based website that visualizes Regina's progress
+               on key Sustainable Development Goals (SDGs) through data-driven insights, client collaboration, and iterative prototyping.
+            </p>
+            <a href="Project4.html" class="btn">More</a>
+          </div>
+        </div>
+
+        <!-- Project Entry #5 -->
+        <div class="project-entry">
+            <div class="project-text" data-aos="fade-right" data-aos-duration="1000" class="aos-init aos-animate">
+              <h3>Engineering Design | Prototyping & CAD Modelling</h3>
+              <h4>Design Project: A Manual Can Crusher</h4>
+              <h3>Team Project</h3>
+              <p>
+                Developed a manually operated mechanical can crusher using wood,
+                 PVC, and a lever-based mechanism, designed to compress aluminum cans 
+                 for recycling. Created 3D CAD models, exploded views, and technical
+                  drawings in Solid Edge to guide fabrication, emphasizing cost-effective
+                   materials, ease of assembly, and sustainability.
+              </p>
+              <a href="Project5.html" class="btn">More</a>
+            </div>
+            <div class="project-image" data-aos="fade-left" data-aos-duration="1000" class="aos-init aos-animate">
+              <img src="assets/images/Project/Project5/Hero.png" alt="Revenue Analysis Dashboard">
+            </div>
+          </div>
+        
+          <hr>
+        
+
+          
+        
+          
+
+
+      </section>    
+      <hr>
+      
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-headerMain">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: cirus.chk216@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +639 382 5453</p>
+                </div>
+             </div>             
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Cirus Chakma .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Cirus Chakma</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,400 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- --------- Devicon ---------- -->    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- AOS CSS -->
+  <!-- In <head> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+         
+  <title>Project 3</title>
+</head>
+<body>
+  <div class="container">
+    <!-- NAVIGATION BAR -->
+    <nav id="headerMain">
+      <div class="nav-logo">
+        <p class="nav-name">Cirus</p><span>.</span>
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list">
+            <a href="index.html#home" class="nav-link">Home</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#about" class="nav-link">About</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#projects" class="nav-link active-link">Projects</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#contact" class="nav-link">Contact</a>
+            <div class="circle"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <button class="btn">Download Resume <i class="uil uil-file-alt"></i></button>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+
+    <!-- PROJECT DETAIL CONTENT -->
+    <main class="wrapper">
+      <section class="project-detail">
+        <div>
+          
+        </div>
+        <div class="project-page-heading">
+          <h1 data-aos="fade-down" data-aos-duration="1000">Simon's Game Using Microcontroller</h1>
+          <h2 data-aos="fade" data-aos-duration="2000">Assembly, C++ | Embedded Systems</h2>
+        </div>
+        <!-- Hero image -->
+        <div class="project-detail-image" data-aos="fade" data-aos-duration="1000">
+          <img
+            src="assets/images/Project/Project3.jpg"
+            alt="BC Analysis Dashboard"
+          />
+        </div>
+
+        <!-- Caption -->
+        <div class="project-detail-caption">
+          <p data-aos="fade" data-aos-duration="1000">
+            A View of the Project with STM32 Microcontroller and Push-buttons, LED Indicators Connected to the Breadboard 
+          </p>
+        </div>
+
+        <div class="project-detail-content">
+
+          <!-- Brief Summary with wrapped image -->
+          <div class="clearfix">
+            <!--<img
+              src="assets/images/sql-snip1.png"
+              alt="Data table preview"
+              class="wrap-image-right"
+            />-->
+            <p data-aos="fade-right" data-aos-duration="1000">
+              For this individual design project, I designed 
+              and implemented a Simon-style memory game on the STM32F103RB microcontroller. 
+              Inspired by the classic LED memory challenge, the project tests a player’s 
+              ability to recall and reproduce sequences of flashing LEDs using physical buttons. 
+              The difficulty ramps up to 10 rounds, with increasing sequence lengths and limited response time.
+            </p>
+          </div>
+
+          <div class="tool-ss">
+            <div class="tools">
+              <!-- Tools used -->
+              <h2 data-aos="fade-down" data-aos-duration="1000">Tools Used</h2>
+              <div class="skills-section-project">
+              <div class="skills-underline"></div>
+
+              <!---programming skills-->
+
+              <div class="skills-gallery-project" data-aos="fade" data-aos-duration="2000">
+                <h4 class="skills-title" >Programming</h4>
+                <hr>
+                <div class="skills-underline"></div>
+                <div class="skills-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" class="skills-image" alt="c++">
+                    <img src="assets/assembly2.png" class="skills-image" alt="asm">
+                </div>
+
+                <p class="skills-text">
+                 C++ | Assembly 
+                </p>
+              </div>
+
+             </div>
+            </div>
+          </div>
+
+          <div>
+
+
+          <h2 data-aos="fade-down" data-aos-duration="1000">Behind the Build: A Visual Story</h2>
+
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="7000">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+
+              <!-- Slides -->
+              <div class="carousel-inner" role="listbox" data-aos="fade" data-aos-duration="2000">
+                <div class="item active">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project3a.png" alt="Top-down-view">
+                     <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                     </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Top-Down View of Project</h3>
+                      <p>This top-down view displays the full hardware setup of the Simon Game
+                         implemented on the STM32F103RB Nucleo-64 microcontroller. Four LEDs are 
+                         connected to GPIO pins PA0, PA1, PA4, and PB0, and are arranged to visually 
+                         represent the game's output sequence. Each LED is paired with a corresponding
+                          push-button (PB4, PB6, PB8, PB9), allowing users to replicate the LED pattern
+                           during gameplay. The wiring is carefully routed to ensure clean voltage
+                            paths, correct pull-up configurations for button inputs, and clear visibility
+                             of the connections for debugging and demonstration purposes. The central
+                              placement of the Nucleo board provides a balanced and accessible layout, 
+                              enabling smooth user interaction while reflecting thoughtful hardware planning and GPIO mapping.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project3b.jpg" alt="IR-Sensor">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>STM32F103RB</h3>
+                      <p>At the heart of the build is the STM32F103RB Nucleo-64 development board,
+                         which serves as the main processing unit for the Simon Game. It is responsible
+                          for generating LED sequences, handling button inputs, and managing game logic
+                           in real time. The board features a 32-bit ARM Cortex-M3 core, enabling responsive
+                            performance even with precise timing constraints such as user input timeouts
+                             and LED flash durations. GPIO pins on ports A and B are manually configured
+                              via register-level Assembly and C code, allowing low-level control over each LED and button.
+                               The board is powered and programmed via USB using an onboard ST-LINK interface,Keil uVision5-
+                                providing both debugging capabilities and a compact form factor ideal for embedded prototyping.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project3c.png" alt="Touch-Sensor">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Indicator LEDs and Switches</h3>
+                      <p>This image captures the full I/O interface of the Simon Game,
+                         showcasing the four LEDs and their corresponding switches 
+                         arranged around the STM32F103RB microcontroller. Each LED 
+                         (connected to PA0, PA1, PA4, and PB0) visually represents a 
+                         step in the game's sequence, while the four push-buttons (wired
+                          to PB4, PB6, PB8, and PB9 with internal pull-up configurations) 
+                          serve as the player's input mechanism. During gameplay, LEDs flash
+                           in randomized sequences, and the player must reproduce the pattern
+                            using the correct buttons. In addition to gameplay, the LEDs also
+                             function as a 4-bit binary display to indicate the level reached
+                              at game end—blinking for failure or success before holding the
+                               final level pattern. The compact layout allows clear one-to-one
+                                mapping between visual cues and user controls, resulting in
+                                 an intuitive and responsive embedded interface.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project3d.png" alt="Source Codes">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Source Code</h3>
+                      <p>Keil µVision5 IDE is used to program and debug
+                         the Simon Game on the STM32F103RB microcontroller. The project is structured
+                          with clearly separated source (main.c) and header (main.h) files, managed 
+                          under the Target_1 group. The code shown implements the game’s main control loop,
+                           initializing GPIO, seeding the random number generator, generating LED sequences, 
+                           and handling round progression. µVision5 provides an integrated environment for writing
+                           , compiling, and flashing embedded C code directly to the microcontroller. The 
+                           lower panel supports build outputs and debugging, while the ST-Link debugger 
+                           interface allows real-time code uploading and stepping through execution for testing and validation.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+          </div>
+
+
+
+          <!-- Key questions -->
+          <div class="project-detail-writing">
+            <div class="questions">
+              <h2 data-aos="fade-down" data-aos-duration="1000">Key Questions I Tried to Answer</h2>
+              <ol data-aos="fade-right" data-aos-duration="1000">
+                <li>Can the PAJ7620U2 distinguish gestures from ambient noise?</li>
+                <li>Polling or interrupts: which best merges gesture and touch inputs?</li>
+                <li>What’s the latency from gesture detection to relay activation?</li>
+                <li>How to add manual override buttons for graceful failure?</li>
+                <li>Is gesture‑only control user‑friendly, and does LED feedback suffice?</li>
+              </ol>
+            </div>
+        
+      
+          <!-- Steps taken -->        
+            <div class="steps">
+              <h2 data-aos="fade-down" data-aos-duration="1000">Steps Taken for Analysis</h2>
+              <ol data-aos="fade-left" data-aos-duration="1000">
+                <li>Reviewed microcontroller and peripheral interface labs (I²C, GPIO, USART).</li>
+                <li>Bench‑tested gesture and touch sensors under different conditions.</li>
+                <li>Compared polling vs interrupt for sensor reads and measured latency.</li>
+                <li>Implemented firmware on board, integrating relay and manual overrides.</li>
+                <li>Evaluated response times, LED feedback clarity, and power consumption.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="project-detail-video">
+
+            <h2 data-aos="fade-down" data-aos-duration="1000">Live Demo</h2>
+            <div class="video-item">
+              <video width="320" height="240" controls>
+                <source src="assets/videos/Project3Demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+          </div>
+          </div>
+      
+
+        <!-- Screenshot gallery 
+        <div class="project-detail-screenshots">
+          <img src="assets/images/sql-snip2.png" alt="Variance card visuals">
+          <img src="assets/images/sql-snip3.png" alt="Monthly trend chart">
+          <img src="assets/images/sql-snip4.png" alt="Service breakdown">
+          Add more as needed
+        </div>-->
+        
+        <div> 
+          <!-- GitHub link -->
+          <div class="project-detail-github">
+            <a
+              href="https://github.com/ciruschakma/Design-Project-Gesture-Based-Device-Controller.git"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+            >
+              View Source on GitHub <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+        </div> 
+          <!-- Back link -->
+          <div class="project-detail-back">
+            <a href="index.html#projects" class="btn">
+              ← Back to Projects
+            </a>
+          </div>
+
+        <!-- Thank you note -->
+        <div class="project-detail-thanks">
+          <h2>Thank you for taking the time to view my project!</h2>
+        </div>
+
+       
+        
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+      <div class="top-footer">
+          <p>Cirus Chakma .</p>
+      </div>
+      <div class="middle-footer">
+          <ul class="footer-menu">
+              <li class="footer_menu_list">
+                  <a href="#home">Home</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#about">About</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#projects">Projects</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+      <div class="footer-social-icons">
+          <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+          <div class="icon"><a
+              href="https://github.com/ciruschakma/Design-Project-Gesture-Based-Device-Controller.git"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+            ><i class="uil uil-github-alt"></i></a></div>
+      </div>
+      <div class="bottom-footer">
+          <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Cirus Chakma</a> - All rights reserved</p>
+      </div>
+  </footer>
+  </div>
+
+
+    
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+
+   <script>
+  function toggleCaption(btn) {
+    const caption = btn.parentElement.querySelector('.carousel-caption-custom');
+    caption.classList.toggle('show');
+    btn.textContent = caption.classList.contains('show') ? 'Hide Info' : 'Show Info';
+  }
+</script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+
+</body>
+</html>

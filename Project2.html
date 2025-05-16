@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- --------- Devicon ---------- -->    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- AOS CSS -->
+  <!-- In <head> -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+         
+  <title>Project2v2</title>
+</head>
+<body>
+  <div class="container">
+    <!-- NAVIGATION BAR -->
+    <nav id="headerMain">
+      <div class="nav-logo">
+        <p class="nav-name">Cirus</p><span>.</span>
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list">
+            <a href="index.html#home" class="nav-link">Home</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#about" class="nav-link">About</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#projects" class="nav-link active-link">Projects</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="index.html#contact" class="nav-link">Contact</a>
+            <div class="circle"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <button class="btn">Download Resume <i class="uil uil-file-alt"></i></button>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+
+    <!-- PROJECT DETAIL CONTENT -->
+    <main class="wrapper">
+      <section class="project-detail">
+        <div>
+          
+        </div>
+        <div class="project-page-heading">
+          <h1 data-aos="fade-down" data-aos-duration="1000">Design Project: Gesture-Based Device Controller</h1>
+          <h2 data-aos="fade" data-aos-duration="2000">C++, Assembly | Microprocessor System Design & Digital Logic</h2>
+        </div>
+        <!-- Hero image -->
+        <div class="project-detail-image" data-aos="fade" data-aos-duration="1000">
+          <img
+            src="assets/images/Project/Project2.jpg"
+            alt="BC Analysis Dashboard"
+          />
+        </div>
+
+        <!-- Caption -->
+        <div class="project-detail-caption">
+          <p data-aos="fade" data-aos-duration="1000">
+            A Top-Down View of the Project with all I/O sensors and devices connected to the STM32F103RB microcontroller
+          </p>
+        </div>
+
+        <div class="project-detail-content">
+
+          <!-- Brief Summary with wrapped image -->
+          <div class="clearfix">
+            <!--<img
+              src="assets/images/sql-snip1.png"
+              alt="Data table preview"
+              class="wrap-image-right"
+            />-->
+            <p data-aos="fade-right" data-aos-duration="1000">
+              For this individual design project, I embarked on an individual design challenge:
+              to create a gesture‑based device controller that seamlessly integrates what I learned
+              about microcontrollers, logic devices, and communication interfaces. The result is a
+              hands‑free control system that uses the Grove PAJ7620U2 gesture sensor (I²C) and a 
+              SparkFun AT42QT101 capacitive touch sensor to activate and deactivate appliances—eliminating
+              the need to press buttons. For robustness, manual override push‑buttons ensure reliable operation
+              even if gesture detection falters, while an LED indicator clearly communicates system status.
+              Powered by the STM32F103RB Nucleo‑64 board, this project pulled together analog signals, I²C,
+              USART, SPI, GPIO control, and power‑management considerations into one cohesive, user‑friendly
+               design—demonstrating both technical skill and real‑world applicability in home automation.
+            </p>
+          </div>
+
+          <div class="tool-ss">
+            <div class="tools">
+              <!-- Tools used -->
+              <h2 data-aos="fade-down" data-aos-duration="1000">Tools Used</h2>
+              <div class="skills-section-project">
+              <div class="skills-underline"></div>
+
+              <!---programming skills-->
+
+              <div class="skills-gallery-project" data-aos="fade" data-aos-duration="2000">
+                <h4 class="skills-title" >Programming</h4>
+                <hr>
+                <div class="skills-underline"></div>
+                <div class="skills-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" class="skills-image" alt="c++">
+                    <img src="assets/assembly2.png" class="skills-image" alt="asm">
+                </div>
+
+                <p class="skills-text">
+                 C++ | Assembly 
+                </p>
+              </div>
+
+             </div>
+            </div>
+          </div>
+
+          <div>
+
+
+          <h2 data-aos="fade-down" data-aos-duration="1000">Behind the Build: A Visual Story</h2>
+
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="7000">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+
+              <!-- Slides -->
+              <div class="carousel-inner" role="listbox" data-aos="fade" data-aos-duration="2000">
+                <div class="item active">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project2a.jpg" alt="Top-down-view">
+                     <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                     </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Top-Down View of Project</h3>
+                      <p>The gesture-based device controller features a compact and functional layout with a centrally mounted STM32F103RB
+                        Nucleo-64 board. It includes a Grove Gesture Sensor, SparkFun Capacitive Touch Sensor, two momentary push buttons,
+                          a 5V dual-channel relay module, and an onboard LED. The Grove Gesture Sensor is connected via I²C and powered through
+                          3.3V logic line. The SparkFun Capacitive Touch Sensor is visible for user access and toggles gesture mode. The wiring
+                            is cleanly routed with careful attention to voltage compatibility and grounding.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project2b.jpg" alt="IR-Sensor">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Grove Gesture Sensor (PAJ7620U2)</h3>
+                      <p>The Grove PAJ7620U2 gesture sensor is responsible for detecting hand motions such as up, down, left, and right.
+                         Connected via I²C on PB8 and PB9 and powered by 3.3V, the sensor plays a central role in enabling contactless 
+                         control over the relay outputs. Although the sensor supports more complex gestures and object detection, this
+                          project specifically uses basic directional gestures to simplify processing and improve reliability. The sensor
+                           continuously reads motion input within its detection field and relays recognized gestures to the microcontroller, 
+                           which then updates the state of the corresponding output relays. The decision to limit gesture detection to four
+                            simple swipes enhanced stability and ensured consistent results during testing.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project2c.jpg" alt="Touch-Sensor">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Capacitive Touch Sensor (AT42QT101)</h3>
+                      <p>The SparkFun Capacitive Touch Sensor serves as a toggle switch for
+                         enabling or disabling the gesture detection mode. Its output pin is
+                          connected to PA0 on the microcontroller, while the power and ground lines
+                           are tied to the 3.3V and GND of the Nucleo board. When touched, the sensor
+                            sends a HIGH signal to PA0, triggering the system to enter gesture mode.
+                             During this mode, the LED LD2 on the board lights up to provide visual confirmation.
+                              Touching the sensor again exits gesture mode, resets the relays to their default off state,
+                               and turns off the LED. Although initial reliability issues were encountered due to improper
+                               ` soldering, these were resolved, and the sensor provided stable activation signals thereafter..</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="carousel-slide-wrapper">
+                    <img src="assets/images/Project/Project2d.png" alt="Source Codes">
+                    <button class="toggle-caption-btn" onclick="toggleCaption(this)">
+                          Show Info
+                    </button>
+                    <div class="carousel-caption-custom">
+                      <h3>Source Code</h3>
+                      <p>The source code was developed in C using Keil uVision5, STM32CubeIDE and adapted
+                         from example code provided by Waveshare for the PAJ7620U2 sensor.
+                          Only the up, down, left, and right gestures were retained and handled,
+                           simplifying the gesture recognition logic. The main program initializes
+                            the I²C communication, configures GPIOs for the touch sensor, relay outputs,
+                             and push buttons, and maintains the last recognized gesture to keep the
+                              corresponding relay active until a new gesture is received. A toggle 
+                              mechanism monitors the capacitive touch sensor to switch gesture detection mode
+                               on and off, while the LED indicator reflects the active state. Manual 
+                               override push buttons are programmed with interrupt or polling logic to 
+                               force relay outputs regardless of gesture state. Although USART debugging 
+                               was employed during development to verify gesture recognition, it was not
+                                included in the final deployment firmware per the functional specification.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+          </div>
+
+
+
+          <!-- Key questions -->
+          <div class="project-detail-writing">
+            <div class="questions">
+              <h2 data-aos="fade-down" data-aos-duration="1000">Key Questions I Tried to Answer</h2>
+              <ol data-aos="fade-right" data-aos-duration="1000">
+                <li>Can the PAJ7620U2 distinguish gestures from ambient noise?</li>
+                <li>Polling or interrupts: which best merges gesture and touch inputs?</li>
+                <li>What’s the latency from gesture detection to relay activation?</li>
+                <li>How to add manual override buttons for graceful failure?</li>
+                <li>Is gesture‑only control user‑friendly, and does LED feedback suffice?</li>
+              </ol>
+            </div>
+        
+      
+          <!-- Steps taken -->        
+            <div class="steps">
+              <h2 data-aos="fade-down" data-aos-duration="1000">Steps Taken for Analysis</h2>
+              <ol data-aos="fade-left" data-aos-duration="1000">
+                <li>Reviewed microcontroller and peripheral interface labs (I²C, GPIO, USART).</li>
+                <li>Bench‑tested gesture and touch sensors under different conditions.</li>
+                <li>Compared polling vs interrupt for sensor reads and measured latency.</li>
+                <li>Implemented firmware on board, integrating relay and manual overrides.</li>
+                <li>Evaluated response times, LED feedback clarity, and power consumption.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="project-detail-video">
+
+            <h2 data-aos="fade-down" data-aos-duration="1000">Live Demo</h2>
+            <div class="video-item">
+              <video width="320" height="240" controls>
+                <source src="assets/videos/Project2Demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+          </div>
+          </div>
+      
+
+        <!-- Screenshot gallery 
+        <div class="project-detail-screenshots">
+          <img src="assets/images/sql-snip2.png" alt="Variance card visuals">
+          <img src="assets/images/sql-snip3.png" alt="Monthly trend chart">
+          <img src="assets/images/sql-snip4.png" alt="Service breakdown">
+          Add more as needed
+        </div>-->
+        
+        <div> 
+          <!-- GitHub link -->
+          <div class="project-detail-github">
+            <a
+              href="https://github.com/ciruschakma/Design-Project-Gesture-Based-Device-Controller.git"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+            >
+              View Source on GitHub <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+        </div> 
+          <!-- Back link -->
+          <div class="project-detail-back">
+            <a href="index.html#projects" class="btn">
+              ← Back to Projects
+            </a>
+          </div>
+
+        <!-- Thank you note -->
+        <div class="project-detail-thanks">
+          <h2>Thank you for taking the time to view my project!</h2>
+        </div>
+
+       
+        
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+      <div class="top-footer">
+          <p>Cirus Chakma .</p>
+      </div>
+      <div class="middle-footer">
+          <ul class="footer-menu">
+              <li class="footer_menu_list">
+                  <a href="#home">Home</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#about">About</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#projects">Projects</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+      <div class="footer-social-icons">
+          <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+          <div class="icon"><a
+              href="https://github.com/ciruschakma/Design-Project-Gesture-Based-Device-Controller.git"
+              class="btn"
+              target="_blank"
+              rel="noopener"
+            ><i class="uil uil-github-alt"></i></a></div>
+      </div>
+      <div class="bottom-footer">
+          <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Cirus Chakma</a> - All rights reserved</p>
+      </div>
+  </footer>
+  </div>
+
+
+    
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+
+   <script>
+  function toggleCaption(btn) {
+    const caption = btn.parentElement.querySelector('.carousel-caption-custom');
+    caption.classList.toggle('show');
+    btn.textContent = caption.classList.contains('show') ? 'Hide Info' : 'Show Info';
+  }
+</script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+
+</body>
+</html>
