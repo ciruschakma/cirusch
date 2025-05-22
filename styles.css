@@ -177,11 +177,11 @@ nav{
     background: var(--third-color);
     color: var(--color-white);
     padding: 3px 8px;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 5px;
 }
 .featured-name{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     color: var(--text-color-second);
     margin-block: 20px;
@@ -630,6 +630,7 @@ footer{
         min-height: 150px;
         width: 100%;
         margin-top: 65px;
+        margin-bottom: 15px;
     }
     .image, .image img{
         width: 150px;
@@ -729,10 +730,12 @@ footer{
   }
   
   .project-image img {
-    height: 350px;
     width: 100%;
+    height: auto;
+    max-width: 100%; /* ensures it doesn’t overflow */
+    display: block; /* removes unwanted spacing */
+    border-radius: 10px; /* optional for styling */
     margin-top: 50px;
-    border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
   
@@ -1012,7 +1015,7 @@ footer{
   
   @media only screen and (max-width: 540px) {
     .project-detail-content h2 {
-      font-size: 1.1rem;
+      font-size: 1.9rem;
     }
     .project-detail-screenshots {
       flex-direction: column;
@@ -1197,13 +1200,27 @@ for Bootstrap 4/5 (uses transform)
 
 
 .float-right-img {
-      float: right;
-      margin: 0 0 10px 15px;
-      width: 400px; /* adjust as needed */
-      border-radius: 10px;
-      box-shadow:  4px 4px rgba(0,0,0,0.1);
-    }
-    .text-content {
-      font-size: 16px;
-      line-height: 1.5;
-    }
+  display: block;
+  float: right;
+  margin: 0 0 10px 15px;
+  width: 100%;
+  max-width: 400px; /* maintain desktop size limit */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+  font-size: 16px;
+  line-height: 1.5;
+  overflow: hidden; /* fixes float overflow issues */
+}
+
+/* Responsive fix for small screens */
+@media screen and (max-width: 768px) {
+  .float-right-img {
+    float: none;
+    display: block;
+    margin: 15px auto;
+  }
+}

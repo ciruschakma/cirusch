@@ -25,7 +25,7 @@ function headerMainShadow() {
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText", {
-  strings    : ["Engineer Student","Designer","Developer","Learner"],
+  strings    : ["Student Engineer","Designer","Developer","Learner"],
   loop       : true,
   typeSpeed  : 100,
   backSpeed  : 80,
